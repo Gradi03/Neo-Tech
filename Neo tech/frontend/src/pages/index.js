@@ -226,9 +226,9 @@ export default function Home() {
             <p className="text-xl text-gray-700 mb-6">
               At Neo DStv Technology, we specialize in providing comprehensive
               satellite services, including installation, repairs, and upgrades.
-              Whether you're facing signal issues or need to set up an entirely
-              new system, we offer customized solutions that cater to your
-              needs.
+              Whether you&apos;re facing signal issues or need to set up an
+              entirely. new system, we offer customized solutions that cater to
+              your needs.
             </p>
             <p className="text-xl text-gray-700 mb-6">
               In addition to DStv services, we also offer professional CCTV

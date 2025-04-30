@@ -121,15 +121,15 @@ export default function Services() {
             surround sound systems, and streaming devices.
             <br />
             <br />
-            Whether it's drywall, brick, or concrete walls, our team is equipped
-            with the right tools and techniques to deliver a flawless
+            Whether it&apos;s drywall, brick, or concrete walls, our team is
+            equipped with the right tools and techniques to deliver a flawless
             installation. We also provide TV repairs for all major brands,
             restoring your device to peak performance and extending its
             lifespan.
             <br />
             <br />
             Choose us for reliable workmanship, high-quality materials, and an
-            entertainment setup you'll love coming home to.
+            entertainment setup you&apos;ll love coming home to.
           </p>
           <Link href="/contact">
             <button className="bg-blue-700 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-800 transition">
@@ -185,10 +185,10 @@ export default function Services() {
             <br />
             <br />
             Our custom-designed layouts eliminate blind spots, giving you
-            complete peace of mind whether you're at home, at work, or on the
-            go. Get instant mobile alerts for suspicious activity, and integrate
-            your CCTV system with alarms or smart home technology for even
-            greater control.
+            complete peace of mind whether you&apos;re at home, at work, or on
+            the go. Get instant mobile alerts for suspicious activity, and
+            integrate your CCTV system with alarms or smart home technology for
+            even greater control.
             <br />
             <br />
             Protect what matters most we also offer ongoing maintenance and fast

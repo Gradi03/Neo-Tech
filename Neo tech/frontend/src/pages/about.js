@@ -157,7 +157,7 @@ const About = () => {
         <section className="py-16 px-6 text-center bg-gray-50">
           <motion.div {...fadeInUp}>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Let's Connect You to the Future
+              Let&apos;s Connect You to the Future{" "}
             </h2>
             <p className="text-md md:text-lg text-gray-600 max-w-2xl mx-auto mb-8">
               Contact NEO DStv Technologies for reliable, professional, and fast
