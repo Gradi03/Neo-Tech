@@ -117,8 +117,8 @@ export default function Home() {
           <Image
             src="/dish.jpg" // Make sure you use a better combined background image
             alt="CCTV and DStv Installation"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: "cover" }}
             priority
           />
         </div>
