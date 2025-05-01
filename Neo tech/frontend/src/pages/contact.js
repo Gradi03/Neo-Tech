@@ -1,7 +1,47 @@
 import Head from "next/head";
 import { Phone, Mail, MapPin } from "lucide-react";
+import swal from "sweetalert";
+import { useState } from "react";
 
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) =>
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    swal({
+      title: "Sending...",
+      text: "Please wait while we send your message.",
+      icon: "info",
+      buttons: false,
+      closeOnClickOutside: false,
+    });
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        access_key: "YOUR_ACCESS_KEY_HERE", // Replace this
+        ...formData,
+      }),
+    });
+
+    if (response.ok) {
+      swal("Success!", "Your message has been sent.", "success");
+      setFormData({ name: "", phone: "", email: "", message: "" });
+    } else {
+      swal("Error!", "Something went wrong. Please try again.", "error");
+    }
+  };
+
   return (
     <>
       <Head>
@@ -28,9 +68,9 @@ export default function Contact() {
           </p>
         </div>
 
-        {/* Contact Info + Form Side by Side */}
+        {/* Contact Info + Form */}
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12">
-          {/* Left Column: Contact Info + Map */}
+          {/* Contact Info */}
           <div className="bg-white p-8 rounded-2xl shadow-lg space-y-8">
             <div>
               <h2 className="text-3xl font-bold text-blue-700 mb-4">
@@ -84,22 +124,12 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Right Column: Form */}
+          {/* Contact Form */}
           <div className="bg-white p-8 rounded-2xl shadow-lg">
             <h2 className="text-3xl font-bold text-blue-700 mb-6 text-center">
               Send Us a Message
             </h2>
-            <form
-              action="https://api.web3forms.com/submit"
-              method="POST"
-              className="space-y-6"
-            >
-              <input
-                type="hidden"
-                name="access_key"
-                value="YOUR_ACCESS_KEY_HERE"
-              />
-
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm text-gray-600 mb-2">
@@ -108,6 +138,8 @@ export default function Contact() {
                   <input
                     type="text"
                     name="name"
+                    value={formData.name}
+                    onChange={handleChange}
                     required
                     placeholder="John Doe"
                     className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
@@ -120,6 +152,8 @@ export default function Contact() {
                   <input
                     type="tel"
                     name="phone"
+                    value={formData.phone}
+                    onChange={handleChange}
                     required
                     placeholder="+27 82 123 4567"
                     className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
@@ -134,6 +168,8 @@ export default function Contact() {
                 <input
                   type="email"
                   name="email"
+                  value={formData.email}
+                  onChange={handleChange}
                   required
                   placeholder="you@example.com"
                   className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
@@ -147,6 +183,8 @@ export default function Contact() {
                 <textarea
                   name="message"
                   rows={5}
+                  value={formData.message}
+                  onChange={handleChange}
                   required
                   placeholder="Tell us how we can help..."
                   className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"

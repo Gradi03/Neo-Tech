@@ -7,27 +7,27 @@ const faqs = [
   {
     question: "What services do you offer?",
     answer:
-      "We specialize in DStv installations, signal troubleshooting, decoder upgrades, communal system setups, and CCTV camera installations.",
+      "We offer a wide range of professional services, including DStv signal correction, satellite dish installation and replacement, LNB replacement, decoder error repair (such as E48-32 and no communication from primary decoder), Extraview and Triple View setup, communal DStv system installation, re-cabling, and TV wall mounting. We also provide CCTV camera installation for homes and businesses, sound bar and home theater setup, and TV repairs for all major brands.",
   },
   {
     question: "Do you install CCTV systems?",
     answer:
-      "Yes, we offer professional CCTV camera installations for both residential and commercial properties, ensuring enhanced security.",
+      "Absolutely. We install high-quality CCTV camera systems for residential, commercial, and complex properties. Our installations are tailored to your property’s layout and include full system setup, remote access configuration, and motion-based recording for 24/7 surveillance and security.",
   },
   {
     question: "How long does an installation take?",
     answer:
-      "DStv installations typically take 1 to 2 hours. CCTV system setups usually take 2 to 4 hours, depending on the number of cameras.",
+      "Standard DStv installations take approximately 1 to 2 hours, depending on the complexity of the setup. CCTV system installations typically take 2 to 4 hours for small to medium-sized properties, and may vary for larger buildings or multi-camera systems.",
   },
   {
     question: "Can I monitor my CCTV remotely?",
     answer:
-      "Yes, our CCTV systems allow remote monitoring through a smartphone or computer from anywhere in the world.",
+      "Yes, all our CCTV systems support remote access. Once installed, we configure your system so you can monitor your cameras in real time from your smartphone, tablet, or computer — whether you're at home or away, anywhere in the world.",
   },
   {
     question: "Do you offer a guarantee on your work?",
     answer:
-      "Yes, all our installations, including DStv and CCTV systems, come with a workmanship guarantee for your peace of mind.",
+      "Yes, every service we provide — from DStv and CCTV installations to TV mounting and decoder troubleshooting — is backed by a workmanship guarantee. This ensures quality results and peace of mind for all our customers.",
   },
 ];
 

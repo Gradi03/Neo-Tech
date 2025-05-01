@@ -140,14 +140,14 @@ export default function Home() {
 
           {/* Title */}
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6 drop-shadow-lg">
-            CCTV & DStv Installation Experts
+            Complete DStv, CCTV & TV Setup Services
           </h1>
 
-          {/* Subtitle */}
           <p className="text-lg md:text-2xl mb-8 font-medium max-w-2xl mx-auto">
-            Protect and entertain your home with professional CCTV and DStv
-            installation services. Fast, reliable, and trusted by 1000+ clients
-            across the Western Cape!
+            From DStv signal repairs and dish replacements to expert TV wall
+            mounting, CCTV installation, and sound system setup we deliver fast,
+            reliable service trusted by 1000+ households across the Western
+            Cape.
           </p>
 
           {/* Call to Action */}
@@ -184,19 +184,20 @@ export default function Home() {
           <div>
             <h2 className="text-4xl font-bold mb-6 text-blue-800">About Us</h2>
             <p className="text-lg text-gray-700 mb-4">
-              Neo DStv Technology is a Cape Town-based company proudly serving
-              the entire Western Cape region. With over a decade of hands-on
-              experience, we have built a strong reputation for delivering
-              quick, efficient, and guaranteed DStv and CCTV solutions.
+              Neo DStv Technologies is a Cape Town-based service provider
+              proudly supporting homes and businesses across the Western Cape.
+              With over 10 years of experience, we’re known for fast,
+              affordable, and reliable DStv and CCTV solutions that are
+              guaranteed to meet your needs.
             </p>
             <p className="text-lg text-gray-700 mb-6">
-              We specialize in professional satellite TV installations, DStv
-              repairs, and CCTV camera installations for both residential and
-              commercial clients across Cape Town and surrounding areas in the
-              Western Cape. Our focus is on same-day service, expert
-              workmanship, and affordable pricing. We are fully accredited, and
-              our dedicated team works around the clock to ensure your
-              entertainment and security needs are covered seamlessly.
+              Our services include DStv signal correction, dish replacement,
+              error code repair, LNB replacement, communal setups, TV wall
+              mounting, sound bar setup, CCTV camera installation, TV repairs
+              (all brands), and full Extraview or Triple View configurations.
+              Fully accredited and committed to same-day service, our expert
+              team ensures top-tier workmanship and customer satisfaction every
+              time.
             </p>
             <Link
               href="/about"
@@ -224,30 +225,30 @@ export default function Home() {
               Our Expert Services
             </h2>
             <p className="text-xl text-gray-700 mb-6">
-              At Neo DStv Technology, we specialize in providing comprehensive
-              satellite services, including installation, repairs, and upgrades.
-              Whether you&apos;re facing signal issues or need to set up an
-              entirely. new system, we offer customized solutions that cater to
-              your needs.
+              At Neo DStv Technologies, we provide complete installation,
+              upgrade, and repair services for DStv, CCTV, and home
+              entertainment systems. Whether you need a dish replacement, signal
+              error fix, or a full multi-room setup we ’ve got you covered with
+              fast and affordable solutions.
             </p>
             <p className="text-xl text-gray-700 mb-6">
-              In addition to DStv services, we also offer professional CCTV
-              camera installations for homes, businesses, and complexes. Our
-              security solutions are designed to give you 24/7 peace of mind
-              with modern, high-quality surveillance systems tailored to your
-              requirements.
+              Our services include DStv signal correction, satellite dish
+              replacement, LNB replacement, Extraview and Triple View setup,
+              communal installations, re-cabling, and TV wall mounting. We also
+              install and configure CCTV camera systems and sound bars for
+              complete home or office security and surround sound.
             </p>
             <p className="text-xl text-gray-700 mb-6">
-              We handle everything from troubleshooting error codes like E48-32
-              to upgrading satellite dishes, installing communal DStv systems,
-              and setting up CCTV security networks. Our team of certified
-              professionals ensures the highest quality of service.
+              We specialize in troubleshooting issues like the E48-32 signal
+              error and decoder communication failures. Our technicians are
+              fully accredited and bring years of experience to every job,
+              ensuring quality workmanship and long-term performance.
             </p>
             <p className="text-xl text-gray-700 mb-8">
-              Trust us to deliver expert workmanship and reliable service, with
-              a focus on customer satisfaction. Every installation is backed by
-              a quality guarantee, ensuring long-term performance and peace of
-              mind.
+              Trusted by clients across the Western Cape, we’re committed to
+              delivering professional service with a customer-first approach.
+              All work is backed by a service guarantee to ensure your
+              satisfaction and peace of mind.
             </p>
 
             {/* Call to Action Buttons */}
