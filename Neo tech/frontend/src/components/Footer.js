@@ -120,7 +120,17 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="mt-10 border-t border-gray-700 pt-6 text-center text-sm">
-        © {new Date().getFullYear()} Neo DStv Technologies. All rights reserved.
+        © {new Date().getFullYear()} Neo DStv Technologies. All rights reserved.{" "}
+        <br />
+        Created by{" "}
+        <a
+          href="https://ninjatechdesign.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-blue-400 hover:underline"
+        >
+          Ninja Tech Design
+        </a>
       </div>
 
       {/* Floating WhatsApp Button */}

@@ -30,9 +30,6 @@ export default function Navbar() {
           >
             <Image src="/neologo.png" alt="NEO Logo" width={50} height={45} />
           </motion.div>
-          {/* <span className="text-white text-xl font-bold tracking-wide">
-            Neo DStv
-          </span> */}
         </Link>
 
         {/* Desktop Nav Links */}
@@ -96,20 +93,12 @@ export default function Navbar() {
                 {link.icon} {link.name}
               </Link>
             ))}
-
-            {/* Optional: Redundant Book Now in menu */}
-            {/* <a
-              href="tel:+27123456789"
-              className="block bg-yellow-400 text-blue-800 px-5 py-3 rounded hover:bg-yellow-300 text-center text-lg font-semibold"
-            >
-              Book Now
-            </a> */}
           </motion.div>
         )}
       </AnimatePresence>
 
-      {/* Spacer */}
-      <div className="h-20 md:h-24"></div>
+      {/* Spacer (adjusted to fix extra space issue) */}
+      <div className="h-15 md:h-19"></div>
     </header>
   );
 }
