@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, Phone } from "lucide-react";
+import { Mail, Phone, Facebook } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Image from "next/image";
@@ -95,6 +95,23 @@ export default function Footer() {
               <Phone className="w-4 h-4" />
               <a href="tel:+27721598813" className="hover:text-white">
                 +27 72 159 8813
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="text-lg font-semibold text-white mb-4">Follow Us</h3>
+          <ul className="space-y-2 text-sm">
+            <li className="flex items-center gap-2">
+              <Facebook className="w-4 h-4 text-white" />
+              <a
+                href="https://www.facebook.com/profile.php?id=61576155950681"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white"
+              >
+                neodstvtechnologies
               </a>
             </li>
           </ul>

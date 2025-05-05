@@ -78,7 +78,7 @@ export default function Home() {
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               name: "Neo DStv Technology",
-              image: "https://neodstvtechnologies.co.za/og-image.webp",
+              image: "https://neodstvtechnologies.co.za/og-image.jpg",
               url: "https://neodstvtechnologies.co.za/",
               telephone: "+27 72 159 8813",
               address: {
@@ -151,12 +151,12 @@ export default function Home() {
           </p>
 
           {/* Call to Action */}
-          <Link
-            href="/contact"
+          <a
+            href="tel:+27123456789"
             className="inline-block bg-yellow-400 text-black font-bold px-8 py-4 rounded-xl hover:bg-yellow-300 transition"
           >
             Get Your Free Quote
-          </Link>
+          </a>
         </motion.div>
       </section>
 

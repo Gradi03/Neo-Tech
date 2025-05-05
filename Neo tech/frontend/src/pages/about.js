@@ -2,13 +2,14 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
+import { Award, BadgeCheck, Clock, Settings, MapPin } from "lucide-react";
 
 // Shared Framer Motion Config
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
   whileInView: { opacity: 1, y: 0 },
   transition: { duration: 0.8 },
-  viewport: { once: true }, // Ensures it only triggers once when in view
+  viewport: { once: true },
 };
 
 const fadeInLeft = {
@@ -98,21 +99,19 @@ const About = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
               {[
-                { service: "DStv Installations & Upgrades", icon: "📡" },
-                { service: "TV Wall Mounting Services", icon: "📺" },
-                { service: "CCTV & Surveillance Installations", icon: "🎥" },
-                { service: "Satellite Dish Repairs & Maintenance", icon: "🛠️" },
-                { service: "Home Theatre & Entertainment Systems", icon: "🎶" },
-                { service: "Custom Security System Setups", icon: "🔒" },
-              ].map(({ service, icon }, idx) => (
+                "DStv Installations & Upgrades",
+                "TV Wall Mounting Services",
+                "CCTV & Surveillance Installations",
+                "Satellite Dish Repairs & Maintenance",
+                "Home Theatre & Entertainment Systems",
+                "Custom Security System Setups",
+                "TV repair for all brands",
+              ].map((service, idx) => (
                 <motion.div
                   key={idx}
                   {...fadeInUp}
                   className="bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition text-center"
                 >
-                  <div className="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mb-4">
-                    {icon}
-                  </div>
                   <p className="text-md md:text-lg font-semibold text-gray-700">
                     {service}
                   </p>
@@ -129,13 +128,38 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 Why Clients Choose Us
               </h2>
-              <ul className="space-y-4 text-gray-600 leading-relaxed text-base md:text-lg">
-                <li>✅ Over 10 Years of Industry Experience</li>
-                <li>✅ Certified Professional Installers</li>
-                <li>✅ Quick Turnaround & Affordable Pricing</li>
-                <li>✅ Custom Solutions for Homes & Businesses</li>
-                <li>✅ Serving All Cape Town and Western Cape</li>
-              </ul>
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <Award className="text-blue-600 w-6 h-6 mt-1" />
+                  <p className="text-gray-700 text-base md:text-lg">
+                    Over 10 Years of Industry Experience
+                  </p>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <BadgeCheck className="text-blue-600 w-6 h-6 mt-1" />
+                  <p className="text-gray-700 text-base md:text-lg">
+                    Certified Professional Installers
+                  </p>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <Clock className="text-blue-600 w-6 h-6 mt-1" />
+                  <p className="text-gray-700 text-base md:text-lg">
+                    Quick Turnaround & Affordable Pricing
+                  </p>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <Settings className="text-blue-600 w-6 h-6 mt-1" />
+                  <p className="text-gray-700 text-base md:text-lg">
+                    Custom Solutions for Homes & Businesses
+                  </p>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <MapPin className="text-blue-600 w-6 h-6 mt-1" />
+                  <p className="text-gray-700 text-base md:text-lg">
+                    Serving All Cape Town and Western Cape
+                  </p>
+                </div>
+              </div>
             </motion.div>
 
             <motion.div {...fadeInRight}>
@@ -153,11 +177,11 @@ const About = () => {
           </div>
         </section>
 
-        {/* Final Call To Action */}
+        {/* Final CTA */}
         <section className="py-16 px-6 text-center bg-gray-50">
           <motion.div {...fadeInUp}>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Let&apos;s Connect You to the Future{" "}
+              Let&apos;s Connect You to the Future
             </h2>
             <p className="text-md md:text-lg text-gray-600 max-w-2xl mx-auto mb-8">
               Contact NEO DStv Technologies for reliable, professional, and fast
