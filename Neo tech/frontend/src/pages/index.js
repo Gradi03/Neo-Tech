@@ -152,7 +152,7 @@ export default function Home() {
 
           {/* Call to Action */}
           <a
-            href="tel:+27123456789"
+            href="tel:+27721598813"
             className="inline-block bg-yellow-400 text-black font-bold px-8 py-4 rounded-xl hover:bg-yellow-300 transition"
           >
             Get Your Free Quote

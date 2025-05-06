@@ -9,13 +9,13 @@ const reviewVariants = {
 
 const reviews = [
   {
-    name: "Thabo M.",
+    name: "Jonathan M.",
     location: "Cape Town",
     stars: 5,
     text: "Excellent service! They arrived on time and sorted out my DStv setup in no time. Highly recommended.",
   },
   {
-    name: "Ayanda P.",
+    name: "Alchris K.",
     location: "Bellville",
     stars: 4,
     text: "Professional and friendly. They even explained how everything works after the install.",

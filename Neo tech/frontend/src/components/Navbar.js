@@ -48,7 +48,7 @@ export default function Navbar() {
             </Link>
           ))}
           <a
-            href="tel:+27123456789"
+            href="tel:+27721598813"
             className="bg-yellow-400 text-blue-800 px-5 py-2 rounded hover:bg-yellow-300 transition text-base font-semibold shadow-md"
           >
             Book Now
