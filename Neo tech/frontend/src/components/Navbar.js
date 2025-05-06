@@ -58,7 +58,7 @@ export default function Navbar() {
         {/* Mobile: Book Now + Hamburger */}
         <div className="md:hidden flex items-center gap-3">
           <a
-            href="tel:+27123456789"
+            href="tel:+27721598813"
             className="bg-yellow-400 text-blue-800 px-3 py-2 rounded hover:bg-yellow-300 transition text-sm font-semibold shadow-md"
           >
             Book Now
