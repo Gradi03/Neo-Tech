@@ -21,10 +21,10 @@ const reviews = [
     text: "Professional and friendly. They even explained how everything works after the install.",
   },
   {
-    name: "Shaun K.",
+    name: "Sibonile B",
     location: "Durbanville",
     stars: 5,
-    text: "Top-notch service. Will definitely use them again if I need upgrades or repairs.",
+    text: "Good service!Reliable signal and excellent customer support. The installation process was smooth and the team was professional.",
   },
 ];
 

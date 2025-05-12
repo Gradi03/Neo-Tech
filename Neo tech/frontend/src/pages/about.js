@@ -30,11 +30,48 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>About Us | NEO DStv Technologies</title>
+        <title>
+          About Us | Neo DStv Technologies - Trusted DStv, TV & CCTV Experts
+        </title>
         <meta
           name="description"
-          content="Learn about NEO DStv Technologies: Experts in DStv installation, TV mounting, and security solutions across the Western Cape."
+          content="Discover Neo DStv Technologies - Your trusted experts in DStv installation, TV mounting, TV repair, and CCTV solutions across Cape Town and Western Cape."
         />
+        <meta
+          name="keywords"
+          content="About Neo DStv Technologies, DStv experts Cape Town, TV mounting, TV repair, CCTV installation Western Cape"
+        />
+        <meta
+          property="og:title"
+          content="About Us | Neo DStv Technologies - DStv, TV & CCTV Experts"
+        />
+        <meta
+          property="og:description"
+          content="Learn about Neo DStv Technologies - Your trusted choice for DStv installation, TV repair, and CCTV solutions in Cape Town."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://neodstvtechnologies.co.za/about"
+        />
+        <meta
+          property="og:image"
+          content="https://neodstvtechnologies.co.za/dstvdish.jpg"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="About Us | Neo DStv Technologies - DStv, TV & CCTV Experts"
+        />
+        <meta
+          name="twitter:description"
+          content="Trusted DStv installation, TV repair, and CCTV solutions in Cape Town & Western Cape. Learn more about Neo DStv Technologies."
+        />
+        <meta
+          name="twitter:image"
+          content="https://neodstvtechnologies.co.za/dstvdish.jpg"
+        />
+        <link rel="canonical" href="https://neodstvtechnologies.co.za/about" />
       </Head>
 
       <main className="bg-white">

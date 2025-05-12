@@ -8,29 +8,45 @@ export default function Services() {
   return (
     <div className="px-6 py-12 max-w-7xl mx-auto">
       <Head>
-        <title>
-          DStv Installation, TV Mounting & CCTV | Neo DStv Technology
-        </title>
+        <title>DStv, CCTV, TV Mounting & Repair | Neo DStv Technology</title>
         <meta
           name="description"
-          content="Professional DStv installations, TV wall mounting, and CCTV security setups across Cape Town and the Western Cape. Get fast, reliable service today!"
+          content="Fast DStv installation, TV mounting, TV repair, and CCTV setup in Cape Town & Western Cape. Trusted service by Neo DStv Technology."
         />
         <meta
           name="keywords"
-          content="DStv installation Cape Town, TV mounting Cape Town, CCTV installation Western Cape, DStv repairs, TV wall mounting, CCTV security systems, Neo DStv Technology"
+          content="DStv installation Cape Town, TV mounting, TV repair Cape Town, CCTV installation Western Cape, Neo DStv Technology"
         />
         <meta
           property="og:title"
-          content="DStv Installation, TV Mounting & CCTV | Neo DStv Technology"
+          content="DStv, CCTV, TV Mounting & Repair | Neo DStv Technology"
         />
         <meta
           property="og:description"
-          content="Trusted DStv and CCTV services in Cape Town. Contact Neo DStv Technology today."
+          content="Reliable DStv installation, TV repair, and CCTV setup in Cape Town & Western Cape. Fast service by Neo DStv Technology."
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
           content="https://neodstvtechnologies.co.za/services"
+        />
+        <meta
+          property="og:image"
+          content="https://neodstvtechnologies.co.za/dstvdish.jpg"
+        />
+        <meta property="og:site_name" content="Neo DStv Technology" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="DStv, CCTV, TV Mounting & Repair | Neo DStv Technology"
+        />
+        <meta
+          name="twitter:description"
+          content="Fast DStv, TV repair, and CCTV setup in Cape Town & Western Cape. Contact Neo DStv Technology."
+        />
+        <meta
+          name="twitter:image"
+          content="https://neodstvtechnologies.co.za/dstvdish.jpg"
         />
         <link
           rel="canonical"

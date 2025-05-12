@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import StatsSection from "@/components/StatsSection";
 import Testimonials from "@/components/Testimonials";
 import FaqItems from "@/components/FaqItems";
-import Head from "next/head"; // ADD THIS at the top with your other imports
+import Head from "next/head";
 import { SatelliteDish } from "lucide-react";
 
 const fadeInUp = {
@@ -17,43 +17,42 @@ export default function Home() {
     <main className="flex flex-col bg-white text-gray-800 font-sans">
       <Head>
         <title>
-          Neo DStv Technology | DStv & CCTV Installers in Cape Town & WC
+          Neo DStv Technologies | DStv, CCTV & TV Installation in Cape Town
         </title>
-
         <meta
           name="description"
-          content="DStv installations, repairs, upgrades & CCTV setup in Cape Town & Western Cape. 24/7 accredited technicians. Fast, same-day service."
+          content="Fast, reliable DStv installations, repairs & CCTV setups in Cape Town. Same-day service by accredited technicians. Call for a free quote."
         />
         <meta
           name="keywords"
-          content="DStv installation Cape Town, CCTV setup, DStv repair Western Cape, same-day DStv service, accredited DStv technicians"
+          content="DStv installation Cape Town, CCTV installation Cape Town, DStv repairs Western Cape, same-day DStv service Cape Town, accredited DStv technicians"
         />
         <meta name="robots" content="index, follow" />
-        <meta name="author" content="Neo DStv Technology" />
-        <meta name="publisher" content="Neo DStv Technology" />
+        <meta name="author" content="Neo DStv Technologies" />
+        <meta name="publisher" content="Neo DStv Technologies" />
         <link rel="canonical" href="https://neodstvtechnologies.co.za/" />
 
         {/* Open Graph for social sharing */}
         <meta
           property="og:title"
-          content="Neo DStv Technology | Trusted DStv & CCTV Installers"
+          content="Neo DStv Technologies | DStv, CCTV & TV Installation"
         />
         <meta
           property="og:description"
-          content="Accredited DStv & CCTV technicians offering fast, same-day installations across Cape Town & Western Cape."
+          content="Fast, reliable DStv and CCTV installation in Cape Town. Trusted by 1,000+ clients."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://neodstvtechnologies.co.za/" />
         <meta
           property="og:image"
-          content="https://neodstvtechnologies.co.za/og-image.webp"
+          content="https://neodstvtechnologies.co.za/dstvdish.jpg"
         />
 
         {/* Twitter Cards */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Neo DStv Technology | DStv & CCTV Services in Cape Town"
+          content="Neo DStv Technologies | DStv & CCTV Services in Cape Town"
         />
         <meta
           name="twitter:description"
@@ -61,7 +60,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://neodstvtechnologies.co.za/og-image.webp"
+          content="https://neodstvtechnologies.co.za/neologo.png"
         />
 
         {/* Geo Location Tags */}
@@ -71,25 +70,24 @@ export default function Home() {
         <meta name="ICBM" content="-33.918861, 18.423300" />
 
         {/* Structured Data */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              name: "Neo DStv Technology",
-              image: "https://neodstvtechnologies.co.za/og-image.jpg",
-              url: "https://neodstvtechnologies.co.za/",
-              telephone: "+27 72 159 8813",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "105 Cook Street",
-                addressLocality: "Cape Town",
-                addressRegion: "Western Cape",
-                postalCode: "7460",
-                addressCountry: "ZA",
-              },
-              openingHoursSpecification: {
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            name: "Neo DStv Technologies",
+            image: "https://neodstvtechnologies.co.za/dstvdish.jpg",
+            url: "https://neodstvtechnologies.co.za/",
+            telephone: "+27 72 159 8813",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "105 Cook Street",
+              addressLocality: "Cape Town",
+              addressRegion: "Western Cape",
+              postalCode: "7460",
+              addressCountry: "ZA",
+            },
+            openingHoursSpecification: [
+              {
                 "@type": "OpeningHoursSpecification",
                 dayOfWeek: [
                   "Monday",
@@ -103,11 +101,11 @@ export default function Home() {
                 opens: "07:00",
                 closes: "20:00",
               },
-              description:
-                "Accredited DStv and CCTV installation specialists in Cape Town. Fast, affordable, and reliable services.",
-            }),
-          }}
-        />
+            ],
+            description:
+              "Accredited DStv and CCTV installation specialists in Cape Town. Fast, affordable, and reliable services.",
+          })}
+        </script>
       </Head>
 
       {/* HERO SECTION */}

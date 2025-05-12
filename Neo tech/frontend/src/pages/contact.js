@@ -45,10 +45,46 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Contact Us | NEO DStv Technologies</title>
+        <title>
+          Contact Us | Neo DStv Technologies - DStv, TV & CCTV Services
+        </title>
         <meta
           name="description"
-          content="Get in touch with NEO DStv Technologies for DStv installations and CCTV services across Cape Town and the Western Cape."
+          content="Get in touch with Neo DStv Technologies for reliable DStv installations, TV mounting, TV repair, and CCTV services across Cape Town and Western Cape."
+        />
+        <meta
+          name="keywords"
+          content="Contact Neo DStv Technologies, DStv installations Cape Town, CCTV services, TV mounting Cape Town, TV repair Western Cape"
+        />
+        <meta
+          property="og:title"
+          content="Contact Us | Neo DStv Technologies - DStv, TV & CCTV Services"
+        />
+        <meta
+          property="og:description"
+          content="Reach out to Neo DStv Technologies for professional DStv installations, TV repair, and CCTV services across Cape Town & Western Cape."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://neodstvtechnologies.co.za/contact"
+        />
+        <meta
+          property="og:image"
+          content="https://neodstvtechnologies.co.za/dstvdish.jpg"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Contact Us | Neo DStv Technologies - DStv, TV & CCTV Services"
+        />
+        <meta
+          name="twitter:description"
+          content="Contact Neo DStv Technologies for expert DStv installations, TV mounting, TV repair, and CCTV services in Cape Town & Western Cape."
+        />
+        <meta
+          name="twitter:image"
+          content="https://neodstvtechnologies.co.za/dstvdish.jpg"
         />
         <link
           rel="canonical"

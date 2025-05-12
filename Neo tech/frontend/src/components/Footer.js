@@ -61,14 +61,14 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/portfolio" className="hover:text-white transition">
+              {/* <Link href="/portfolio" className="hover:text-white transition">
                 Portfolio
-              </Link>
+              </Link> */}
             </li>
             <li>
-              <Link href="/gallery" className="hover:text-white transition">
+              {/* <Link href="/gallery" className="hover:text-white transition">
                 Gallery
-              </Link>
+              </Link> */}
             </li>
             <li>
               <Link href="/contact" className="hover:text-white transition">
@@ -111,7 +111,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="hover:text-white"
               >
-                neodstvtechnologies
+                Neo DStv Technologies
               </a>
             </li>
           </ul>
